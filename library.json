@@ -1,0 +1,17 @@
+{
+  "name": "tiny32_DO_sensor",
+  "keywords": "FreeRTOS, ESP32, frameworks",
+  "description": "tiny32 DO_sensor Library",
+  "homepage": "https://www.tenergyinnovation.co.th",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tenergyinnovation/tiny32_DO_sensor"
+  },
+  "version": "1.0.0",
+  "authors": {
+    "name": "tiny32_DO_sensor",
+    "url": "https://github.com/tenergyinnovation/"
+  },
+  "frameworks": "arduino",
+  "platforms": "esp32"
+}
