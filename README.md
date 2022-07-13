@@ -1,4 +1,4 @@
-# tiny32_v3_DO_sensor
+# tiny32_DO_sensor
 Example code tiny32_v3 interface with DO Analog Dissolved Oxygen Sensor Meter Kit For Arduino
 
 *** Before run this example, you must install tiny32 library first at below link ***
