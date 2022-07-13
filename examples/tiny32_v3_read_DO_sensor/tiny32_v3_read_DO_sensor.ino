@@ -1,6 +1,6 @@
 /***********************************************************************
- * Project      :     tiny32_v3_DO_sensor
- * Description  :     Calibration Dissolved Oxygen Probe
+ * Project      :     tiny32_v3_read_DO_sensor
+ * Description  :     Read DO sensor
  *                    https://wiki.dfrobot.com/Gravity__Analog_Dissolved_Oxygen_Sensor_SKU_SEN0237#target_3
  * Hardware     :     tiny32_v3         
  * Author       :     Tenergy Innovation Co., Ltd.
@@ -64,7 +64,7 @@ float DO_read_sensor(uint16_t channel);
 void setup()
 {
     Serial.begin(115200);
-    Serial.printf("**** tiny32_v3_DO_sensor (STEP2 calibration) ****\r\n");
+    Serial.printf("**** tiny32_v3_read_DO_sensor ****\r\n");
 
     if (!ads.begin()) {
         Serial.println("Failed to initialize ADS1115 can't interface.");
